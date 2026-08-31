@@ -25,4 +25,36 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    /* === 2. HAMBURGER MENU LOGIC === */
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navMenu = document.querySelector('.nav-links');
+    
+    if (mobileMenu && navMenu) {
+        const menuIcon = mobileMenu.querySelector('i');
+        
+        mobileMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            
+            // Toggle Icon between Bars and X
+            if (navMenu.classList.contains('active')) {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            } else {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+
+        // Tutup menu otomatis jika salah satu tautan diklik (khusus mobile)
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if(navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    menuIcon.classList.remove('fa-xmark');
+                    menuIcon.classList.add('fa-bars');
+                }
+            });
+        });
+    }
 });
