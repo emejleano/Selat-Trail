@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalur Peranakan - Selat Trail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-leaf"></i> Selat Trail
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#beranda">Beranda</a></li>
+            <li><a href="index.html#indonesia">Indonesia</a></li>
+            <li><a href="index.html#malaysia">Malaysia</a></li>
+            <li><a href="index.html#akulturasi">Akulturasi</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Spesifik Destinasi -->
+    <header class="detail-hero" style="background-image: url('peranakan_mansion.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container relative">
+            <span class="badge badge-mix">Akulturasi</span>
+            <h1>Jalur Peranakan Selat Malaka</h1>
+            <p class="location"><i class="fa-solid fa-location-dot"></i> Medan (ID) - Melaka (MY)</p>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container detail-layout">
+        <div class="detail-main">
+            <h2>Tentang Titik Akulturasi Ini</h2>
+            <img src="peranakan_detail.jpg" alt="Interior dan Teh Baba Nyonya" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <p><strong>Jalur Peranakan Selat Malaka</strong> merangkum perjalanan sejarah panjang perdagangan maritim. Di sinilah budaya Tionghoa berpadu dengan kearifan lokal Melayu pesisir, melahirkan kebudayaan luhur "Peranakan" atau yang juga sering disebut sebagai kebudayaan "Baba Nyonya".</p>
+            <p><i class="fa-solid fa-chart-pie" style="color:var(--color-primary);"></i> <strong>Status Kunjungan:</strong> Medium. Lebih difokuskan pada tur edukasi arsitektur rumah-rumah warisan bersejarah (heritage houses) dan museum yang dikelola secara independen oleh keluarga turun-temurun lintas dua negara.</p>
+            
+            <h3>Peta Rute Historis Tjong A Fie (Medan)</h3>
+            <p>Sebagai contoh pusat akulturasi di sisi Sumatera (Indonesia), berikut adalah lokasi salah satu mansion ikonik bersejarah.</p>
+            
+            <!-- Google Maps Embed Iframe -->
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=Tjong+A+Fie+Mansion+Medan&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+
+        <!-- Sidebar CTA -->
+        <div class="detail-sidebar">
+            <h3>Layanan Eksternal</h3>
+            
+            <a href="https://maps.google.com/?q=Peranakan+Museum+Melaka" target="_blank" rel="noopener noreferrer" class="btn-action btn-map">
+                <i class="fa-solid fa-map-location-dot"></i> Rute Heritage Melaka
+            </a>
+            
+            <a href="https://maps.google.com/?q=Tjong+A+Fie+Mansion+Medan" target="_blank" rel="noopener noreferrer" class="btn-action btn-map">
+                <i class="fa-solid fa-map-location-dot"></i> Rute Heritage Medan
+            </a>
+            
+            <a href="https://maps.google.com/?q=Nyonya+Food" target="_blank" rel="noopener noreferrer" class="btn-action btn-food">
+                <i class="fa-solid fa-utensils"></i> Kuliner (Nyonya Laksa)
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Selat Trail - Cross-Border Tourism Platform.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Adat Bayan - Selat Trail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-leaf"></i> Selat Trail
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#beranda">Beranda</a></li>
+            <li><a href="index.html#indonesia">Indonesia</a></li>
+            <li><a href="index.html#malaysia">Malaysia</a></li>
+            <li><a href="index.html#akulturasi">Akulturasi</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Spesifik Destinasi -->
+    <header class="detail-hero" style="background-image: url('bayan_village.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container relative">
+            <span class="badge badge-id">Indonesia</span>
+            <h1>Desa Adat Bayan</h1>
+            <p class="location"><i class="fa-solid fa-location-dot"></i> Lombok Utara, NTB</p>
+        </div>
+    </header>
+
+    <!-- Konten Utama (Teks & Maps) -->
+    <div class="container detail-layout">
+        <div class="detail-main">
+            <h2>Tentang Destinasi Budaya Ini</h2>
+            <img src="bayan_detail.jpg" alt="Kain Tenun Tradisional Sasak" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <p><strong>Desa Adat Bayan</strong> merupakan pusat komunitas suku Sasak Bayan yang masih memegang teguh adat tradisi Komunitas Wetu Telu. Di kawasan ini berdiri Masjid Kuno Bayan Beleq (berusia lebih dari 300 tahun) serta pemukiman rumah adat berdinding anyaman bambu dan atap ilalang.</p>
+            <p><i class="fa-solid fa-chart-pie" style="color:var(--color-primary);"></i> <strong>Status Kunjungan:</strong> Minim pengunjung komersial (kurang dari 5% total turis Lombok), sangat alami, dan belum banyak tersentuh pariwisata massal.</p>
+            
+            <h3>Peta & Lokasi</h3>
+            <p>Lihat lokasi tepat Desa Adat Bayan di bawah ini. Anda dapat memperbesar, memperkecil, dan melihat area sekitarnya.</p>
+            
+            <!-- Google Maps Embed Iframe -->
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=Desa+Adat+Bayan,+Lombok+Utara&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+
+        <!-- Sidebar CTA (Tautan Layanan) -->
+        <div class="detail-sidebar">
+            <h3>Layanan Eksternal</h3>
+            
+            <a href="https://maps.google.com/?q=Desa+Adat+Bayan+Lombok" target="_blank" rel="noopener noreferrer" class="btn-action btn-map">
+                <i class="fa-solid fa-map-location-dot"></i> Buka Rute Penuh (Maps)
+            </a>
+            
+            <a href="https://www.agoda.com/id-id/search?city=17088" target="_blank" rel="noopener noreferrer" class="btn-action btn-stay">
+                <i class="fa-solid fa-bed"></i> Eco-Guest House Sekitar
+            </a>
+            
+            <a href="https://maps.google.com/?q=Kuliner+Lombok+Utara" target="_blank" rel="noopener noreferrer" class="btn-action btn-food">
+                <i class="fa-solid fa-utensils"></i> Kuliner (Beberuk Terong)
+            </a>
+            
+            <a href="https://wa.me/628000000000?text=Halo,%20saya%20ingin%20membeli%20Cultural%20Pass%20Desa%20Bayan" target="_blank" rel="noopener noreferrer" class="btn-action btn-ticket">
+                <i class="fa-solid fa-ticket"></i> Beli Cultural Pass
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Selat Trail - Cross-Border Tourism Platform.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

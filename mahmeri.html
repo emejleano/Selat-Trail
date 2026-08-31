@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampung Budaya Mah Meri - Selat Trail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-leaf"></i> Selat Trail
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#beranda">Beranda</a></li>
+            <li><a href="index.html#indonesia">Indonesia</a></li>
+            <li><a href="index.html#malaysia">Malaysia</a></li>
+            <li><a href="index.html#akulturasi">Akulturasi</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Spesifik Destinasi -->
+    <header class="detail-hero" style="background-image: url('mahmeri_village.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container relative">
+            <span class="badge badge-my">Malaysia</span>
+            <h1>Kampung Budaya Mah Meri</h1>
+            <p class="location"><i class="fa-solid fa-location-dot"></i> Pulau Carey, Selangor</p>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container detail-layout">
+        <div class="detail-main">
+            <h2>Tentang Destinasi Budaya Ini</h2>
+            
+            <!-- Foto Tambahan -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                <img src="mahmeri_mask.jpg" alt="Ukiran Topeng Mah Meri" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                <img src="mahmeri_carving.jpg" alt="Seni Pahat Kayu" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            </div>
+
+            <p><strong>Kampung Budaya Mah Meri</strong> adalah pemukiman suku asli Orang Asli sub-etnis Mah Meri. Suku ini dikenal sebagai "Masked Men of Malaysia". Mereka terkenal akan kemahiran ukiran dan seni pahat topeng kayu berbahan Nyireh Batu, serta tarian ritual Main Jo-oh untuk menghormati roh leluhur dan laut.</p>
+            <p><i class="fa-solid fa-chart-pie" style="color:var(--color-primary);"></i> <strong>Status Kunjungan:</strong> Masih sangat sepi dibanding destinasi komersial di wilayah Selangor; memerlukan reservasi khusus dan memberikan pengalaman budaya terisolasi yang autentik.</p>
+            
+            <h3>Peta & Lokasi</h3>
+            <p>Kampung ini terletak di Pulau Carey, jauh dari hiruk-pikuk pariwisata massal. Jelajahi peta di bawah ini untuk melihat detail geografisnya.</p>
+            
+            <!-- Google Maps Embed Iframe -->
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=Mah+Meri+Cultural+Village,+Carey+Island&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+
+        <!-- Sidebar CTA -->
+        <div class="detail-sidebar">
+            <h3>Layanan Eksternal</h3>
+            
+            <a href="https://maps.google.com/?q=Mah+Meri+Cultural+Village+Carey+Island" target="_blank" rel="noopener noreferrer" class="btn-action btn-map">
+                <i class="fa-solid fa-map-location-dot"></i> Buka Rute Penuh (Maps)
+            </a>
+            
+            <a href="https://www.agoda.com/id-id/search?city=15220" target="_blank" rel="noopener noreferrer" class="btn-action btn-stay">
+                <i class="fa-solid fa-bed"></i> Homestay Tradisional
+            </a>
+            
+            <a href="https://maps.google.com/?q=Nasi+Ambeng+Selangor" target="_blank" rel="noopener noreferrer" class="btn-action btn-food">
+                <i class="fa-solid fa-utensils"></i> Kuliner (Nasi Ambeng)
+            </a>
+            
+            <a href="https://wa.me/60100000000?text=Hello,%20I%20want%20to%20book%20Cultural%20Pass%20for%20Mah%20Meri" target="_blank" rel="noopener noreferrer" class="btn-action btn-ticket">
+                <i class="fa-solid fa-ticket"></i> Beli Cultural Pass
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Selat Trail - Cross-Border Tourism Platform.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
